@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodistaan_unofficial/widgets/food_item_widget.dart';
+import 'package:foodistan/widgets/food_item_widget.dart';
 
 class RestuarantDeliveryMenu extends StatefulWidget {
   RestuarantDeliveryMenu({Key? key}) : super(key: key);

@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:foodistaan_unofficial/widgets/food_item_widget.dart';
-import 'package:foodistaan_unofficial/widgets/reviewer_widget.dart';
+
+import 'package:foodistan/widgets/reviewer_widget.dart';
 
 class RestuarantDeliveryReview extends StatefulWidget {
   static String id = 'restaurant_delivery_review';

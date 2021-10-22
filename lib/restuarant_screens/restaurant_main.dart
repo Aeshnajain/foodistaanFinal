@@ -2,7 +2,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:foodistaan_unofficial/widgets/options.dart';
+import 'package:foodistan/widgets/options.dart';
 
 class RestaurantMain extends StatefulWidget {
   RestaurantMain({Key? key}) : super(key: key);

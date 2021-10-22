@@ -4,12 +4,10 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:foodistaan_unofficial/screens/restuarant_screens/restaurant_delivery_review.dart';
-import 'package:foodistaan_unofficial/widgets/bottom_navbar.dart';
-import 'package:foodistaan_unofficial/widgets/food_item_widget.dart';
-import 'package:foodistaan_unofficial/widgets/options.dart';
-import 'package:foodistaan_unofficial/screens/restuarant_screens/restaurant_main.dart';
-import 'package:foodistaan_unofficial/screens/restuarant_screens/restuarant_delivery_menu.dart';
+import 'package:foodistan/restuarant_screens/restaurant_delivery_review.dart';
+import 'package:foodistan/restuarant_screens/restaurant_main.dart';
+import 'package:foodistan/restuarant_screens/restuarant_delivery_menu.dart';
+import 'package:foodistan/widgets/bottom_navbar.dart';
 
 class RestaurantDelivery extends StatefulWidget {
   static String id = 'restaurant_delivery';
