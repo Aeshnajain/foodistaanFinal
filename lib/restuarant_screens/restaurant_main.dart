@@ -25,7 +25,7 @@ class _RestaurantMainState extends State<RestaurantMain> {
         top: MediaQuery.of(context).size.height * 0.2,
       ),
       width: MediaQuery.of(context).size.width * 0.95,
-      height: MediaQuery.of(context).size.height * 0.42,
+      height: MediaQuery.of(context).size.height * 0.5,
       child: Column(
         children: [
           Row(
@@ -193,7 +193,7 @@ class _RestaurantMainState extends State<RestaurantMain> {
                           ? Border.all(color: Colors.amber, width: 1)
                           : Border.all(color: Colors.white, width: 1),
                     ),
-                    width: MediaQuery.of(context).size.width * 0.28,
+                    width: MediaQuery.of(context).size.width * 0.27,
                     height: MediaQuery.of(context).size.height * 0.07,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -226,7 +226,7 @@ class _RestaurantMainState extends State<RestaurantMain> {
                           ? Border.all(color: Colors.amber, width: 1)
                           : Border.all(color: Colors.white, width: 1),
                     ),
-                    width: MediaQuery.of(context).size.width * 0.28,
+                    width: MediaQuery.of(context).size.width * 0.27,
                     height: MediaQuery.of(context).size.height * 0.07,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -259,7 +259,7 @@ class _RestaurantMainState extends State<RestaurantMain> {
                           ? Border.all(color: Colors.amber, width: 1)
                           : Border.all(color: Colors.white, width: 1),
                     ),
-                    width: MediaQuery.of(context).size.width * 0.28,
+                    width: MediaQuery.of(context).size.width * 0.27,
                     height: MediaQuery.of(context).size.height * 0.07,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -315,7 +315,7 @@ class _RestaurantMainState extends State<RestaurantMain> {
           ),
           Container(
             margin: EdgeInsets.only(top: 15),
-            height: MediaQuery.of(context).size.height * 0.07,
+            height: MediaQuery.of(context).size.height * 0.08,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -339,7 +339,7 @@ class _RestaurantMainState extends State<RestaurantMain> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
-                                fontSize: 11,
+                                fontSize: 8,
                               ),
                             ),
                           ),
@@ -392,7 +392,7 @@ class _RestaurantMainState extends State<RestaurantMain> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
-                                fontSize: 11,
+                                fontSize: 8,
                               ),
                             ),
                           ),

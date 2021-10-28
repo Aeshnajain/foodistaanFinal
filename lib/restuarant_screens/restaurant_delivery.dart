@@ -50,7 +50,7 @@ class _RestaurantDeliveryState extends State<RestaurantDelivery> {
                   )),
             ]),
       ),
-      bottomNavigationBar: BottomNavBar(),
+      // bottomNavigationBar: BottomNavBar(),
       body: SizedBox(
         child: ListView(
           shrinkWrap: true,
@@ -60,7 +60,7 @@ class _RestaurantDeliveryState extends State<RestaurantDelivery> {
                 Container(
                     color: Colors.white,
                     width: MediaQuery.of(context).size.width,
-                    height: MediaQuery.of(context).size.height * 0.25,
+                    height: MediaQuery.of(context).size.height * 0.35,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(16.0),
                       child: Image.asset(
@@ -159,8 +159,8 @@ class _RestaurantDeliveryState extends State<RestaurantDelivery> {
                 height: MediaQuery.of(context).size.height * 2,
                 width: MediaQuery.of(context).size.width * 0.7,
                 child: isReviewSelected
-                    ? RestuarantDeliveryMenu()
-                    : RestuarantDeliveryReview()),
+                    ? RestuarantDeliveryReview()
+                    : RestuarantDeliveryMenu()),
           ],
         ),
       ),

@@ -17,7 +17,7 @@ class _MyFoodItemWidgetState extends State<MyFoodItemWidget> {
         child: Container(
           color: Colors.white,
           width: MediaQuery.of(context).size.width * 0.48,
-          height: MediaQuery.of(context).size.height * 0.9,
+          height: MediaQuery.of(context).size.height,
           child: Column(
             children: [
               Container(
@@ -39,15 +39,15 @@ class _MyFoodItemWidgetState extends State<MyFoodItemWidget> {
                           mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: const [
-                            Text("Blueberry Waffle ",
+                            Text("Tandoori Kurkure  ",
                                 style: TextStyle(
                                   color: Colors.black,
-                                  fontSize: 10,
+                                  fontSize: 14,
                                 )),
-                            Text("Rs 200",
+                            Text("(Chef Special)",
                                 style: TextStyle(
                                   color: Colors.black,
-                                  fontSize: 10,
+                                  fontSize: 14,
                                 )),
                           ],
                         ),
@@ -64,7 +64,22 @@ class _MyFoodItemWidgetState extends State<MyFoodItemWidget> {
                           style: TextStyle(fontSize: 8)),
                     ),
                     Container(
-                        margin: const EdgeInsets.only(top: 10),
+                      alignment: Alignment.center,
+                      child: Text("Earn upto 200 FS points",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 6,
+                          )),
+                    ),
+                    Container(
+                      alignment: Alignment.center,
+                      child: Text("Rs 200",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 8,
+                          )),
+                    ),
+                    Container(
                         width: MediaQuery.of(context).size.width * 0.55,
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -83,20 +98,6 @@ class _MyFoodItemWidgetState extends State<MyFoodItemWidget> {
                                     ),
                                   )),
                             ),
-                            Container(
-                              margin: const EdgeInsets.only(left: 30),
-                              child: Transform.rotate(
-                                angle: -math.pi / 4,
-                                child: Container(
-                                  color: Colors.yellow,
-                                  child: const Text(
-                                    " Save upto Rs 100 ",
-                                    style: TextStyle(
-                                        fontSize: 8, color: Colors.black),
-                                  ),
-                                ),
-                              ),
-                            )
                           ],
                         ))
                   ],

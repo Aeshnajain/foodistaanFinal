@@ -17,7 +17,7 @@ class _ReviewerWidgetState extends State<ReviewerWidget> {
             BoxDecoration(border: Border.all(color: Colors.black, width: 1)),
         padding: EdgeInsets.all(8),
         alignment: Alignment.center,
-        height: MediaQuery.of(context).size.height * 0.2,
+        height: MediaQuery.of(context).size.height * 0.3,
         width: MediaQuery.of(context).size.width * 0.9,
         child: Column(
           children: [
